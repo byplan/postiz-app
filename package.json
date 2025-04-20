@@ -31,7 +31,6 @@
     "docker-create": "./var/docker/docker-create.sh",
     "postinstall": "npm run update-plugins && npm run prisma-generate",
     "test": "jest --coverage --detectOpenHandles --reporters=default --reporters=jest-junit"
-    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
